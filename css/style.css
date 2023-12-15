@@ -117,9 +117,10 @@ h2 {
     text-align: left;
     margin-left: 25px;
     margin-top: 50px;
+    font-weight: bold;
 }
 
-/* Lopende tekst van quote animatie. */
+/* Quote met animatie home-page. */
 
 .line1 {
     color: white;
@@ -129,8 +130,8 @@ h2 {
     text-transform: uppercase;
     animation: text 5s ease 1;
     margin-left: 25px;
-    align-items: center;
     padding-top: 125px;
+    margin-bottom: 0;
 }
 
 .line {
@@ -141,7 +142,8 @@ h2 {
     text-transform: uppercase;
     animation: text 5s ease 1;
     margin-left: 25px;
-    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 @keyframes text {
